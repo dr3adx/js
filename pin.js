@@ -575,7 +575,7 @@ var PINJSurl = "http://" + PINJSholder + window.location.href.substr(29);
                             SPAN: {
                                 className: a.a.k + "_pin",
                                 "data-pin-url": PINJSurl,
-                                "data-pin-description": a.f.getSelection() || b.description || a.d.title,
+                                "data-pin-description": a.d.title + " - Click For Recipe",
                                 "data-pin-media": b.src
                             }
                         });
