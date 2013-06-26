@@ -5,7 +5,6 @@ if (PINJSname!=null && PINJSname!="")
   PINJSholder=PINJSname;
   }
 var PINJSurl = "http://" + PINJSholder + window.location.href.substr(29);
-alert(PINJSurl);
 (function(g, i, j) {
     var a = g[j.k] = {
         w: g,
